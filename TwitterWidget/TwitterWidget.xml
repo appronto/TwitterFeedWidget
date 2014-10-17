@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="TwitterWidget.widget.TwitterWidget" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+	<name>Twitter Widget</name>
+	<description>Shows tweets based on user name and pre-configured twitter widget.</description>
+
+  <icon>
+	iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2Fy
+	ZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABJpJREFUeNqEVklvHEUU/rq7Zt9svAQU
+	B5xgCxsREBiBlAtCGCEhJHzICf8D7kgsEjcu4W84hwgJAUJckHzgAHakKCGLMYbB
+	CY5jG3mJZzLd093VVbxXvXhmxFLSm6qurn7L9733aizMzeHTDz+67Hneu0rrCtJh
+	ATb/WBaUUmbLtm0zK03P+uRZa03HrPgdnaX9Tj6f+/qzS5cWrU+uXFmyYC0+PzuL
+	RrmcHeThOI6Zoygy63Tu3Rt8z0b3j49xa32dHbksXK+78PL551Ah5a0wRCglLDqk
+	E69NKOTuoDKK1nhOP33vckKgSrpmp6dw7dbtBaGgK41aDW3fRxhJOLYDSTOP404X
+	m38dwA8lRutVTI4PIy9yCNgJitS2LeNAlECmaS9UESJybqTRoC1dEVJGxuOQNiOl
+	SciIY5M3CkVi4eP51/BYuYTVe/exen8bjeoJhIhSKO0kAmWiCcjBCkVC6iDYNMMi
+	E2g4TCaW5b25F1DKCfPxq09NoBX42HrU7s0DdtycNd+xEaUyCBkJWyVHwygOzRw2
+	0VAEpFwnSljyjsiM83udrnucYgmIS7auKATBaRXKMCOpLyu0Ru941PVxvbnVt1cv
+	F3FmdMiQ3Zt9IfHGugVbYXNs1SbrBqYkg6J+/ZifmTbSO+7s7GG52UQpL7JsMhGU
+	iiYaYbAi/I1SPpDAY2Qggn8aM4+PY6fdQvPwwMCSEs28ckEKk5I9uJsQkygi/L8B
+	Hvm8SHToTI8qFGIO0jxO2Y+h0eYD+S/6eXvjgULL5eyjOSA4tIOcLiBQxzF/pI+d
+	NxAZHpIo/ovk1c272GtJnB8/h1MVC6drjlHclSPY2q/gzv5dCKsEqbpI9QqlezBP
+	ssgUCxHlBhKFpA54dMMIz46dwxM1iyo/omdtEiFHdTY5VkI3mMCNw5sooBbDREZs
+	rmRexLl7wgXLXrttokhlvHwGoyUY5W5AycGYk4UOrQ+9CKdHSsh5YwjgGYJZ7LTF
+	Dirn53tHB4boVNquBvPJymNCERsh6fgK+Rz1MdeBL7tmj/m1ddIqQu6kJFbS/3m9
+	vr1NMEjTU1iCZC37lCOLhOHixsjOcafNIBos8zQCLwjw3c830PY8w0G5wNUcQVAX
+	HTSSExbcbgiJTuygSiHidExgSZXLnr60c3SEL1ZXcG1zEyOjEs3dDmoFm/pSnPd8
+	rEDKh0oObjf3MdZaz/SYLJLUv2VKcnItcmiRlFlG+WTwp982cPUPagm6Dt+fwtRE
+	HeM1asl0xutKXF3bRedwF2+e2sHNte+xe+F946hQBJHJ+7R6yaBW8W1l0pVgyto/
+	R+YcYWVvBRs7ZxH5dI9Q6ga2i2r4APPOdYw8/SKecR8iWP6cQrsAZ3r+jQ+q9Ua+
+	SKUdky2zhhfFF3gfR9y32LjvtODa+4hKLYSiDa9o4U+UUV/7Fk/OvIJc9yHs35eV
+	ECL31S+/ri9OTp7F8NAQhqpVw4lI/jFIY8SKq50G78vsvka2F49hrBTfgfvDEmZe
+	eh2VH7+hL+lvy9sXLy4RLAvkWUWlXqf1kd5eSeplPA0YObnegEZ45L2192XJ6xwX
+	/xZgADmOXNNajVk7AAAAAElFTkSuQmCC
+  </icon>
+
+	<properties>
+		<property key="username" type="attribute" required="true">
+			<caption>Attribute</caption>
+			<category>Data source</category>
+			<description>Username to view</description> 
+			<attributeTypes>
+				<attributeType name="String"/> 
+			</attributeTypes>
+		</property>
+		<property key="widgetid" type="string" required="true">
+			<caption>Data-widget-id</caption>
+			<category>Data source</category>
+			<description>Data widget id from pre configured twitter widget</description> 
+			
+		</property>
+	</properties>
+</widget>
